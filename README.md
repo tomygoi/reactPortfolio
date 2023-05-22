@@ -24,6 +24,8 @@ React
 Tailwind and Formspree
 
 ## Screenshots 
+![Screenshot1](https://github.com/tomygoi/reactPortfolio/assets/120353691/2b26ca43-b711-4b2f-948c-1cfa450429c0)
+![Screenshot2](https://github.com/tomygoi/reactPortfolio/assets/120353691/1ba24f99-ab1e-47c6-a329-356a289dae5f)
 
 ## Credit
 - https://www.npmjs.com/package/dotenv 
