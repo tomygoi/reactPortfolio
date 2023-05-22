@@ -1,4 +1,4 @@
-import aniMatch from "../assets/aniMatch.jpg";
+import aniMatch from "../assets/aniMatch_upscaled.jpg";
 import Kickshaw from "../assets/kickshaw.jpg";
 import employeeTracker from "../assets/employees_95.jpg";
 import comingSoon from "../assets/comingSoon_35.png";
@@ -20,9 +20,9 @@ function Project() {
         </div>
 
         {/* <!-- Projects --> */}
-        <div className="flex flex-col md:flex-row md:flex-wrap md:columns-3 space-x-0 md:space-x-8 space-y-12 md:space-y-0 justify-center items-center mt-10">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 justify-center items-center mt-10">
           {/* Card 1 */}
-          <div className="bg-[#330E0C] rounded-xl md:w-{1/3}">
+          <div className="bg-[#330E0C] rounded-xl ">
             <div className="flex flex-col p-8 rounded-xl bg-[#BCBAA6] shadow-xl translate-x-4 translate-y-4 w-96 md:w-auto">
               <div className="mt-auto font-semibold text-xl justify-center items-center flex">
                 AniMatch
@@ -30,7 +30,7 @@ function Project() {
 
               
               <a href="https://animatch.herokuapp.com/" className="block">
-              <img src={aniMatch} className="rounded-xl mt-3 h-64 object-cover border border-black w-full" alt="aniMatch logo"/>
+              <img src={aniMatch} className="rounded-xl mt-3 h-64 md:h-auto md:max-h-64 object-cover border border-black w-full" alt="aniMatch logo"/>
               </a>
 
               <a href="https://github.com/BJThompson12/Heroku-Heroes">

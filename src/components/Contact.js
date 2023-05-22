@@ -3,7 +3,7 @@ import { useForm } from "@formspree/react";
 function Contact() {
   const [state, handleSubmit] = useForm("contact");
   if (state.succeeded) {
-    return <p>Submission Successful</p>;
+    return <p className="my-3 text-3xl font-semibold text-center text-grey-600">Submission Successfull !</p>;
   }
   return (
       <div id="contact" className="flex items-center min-h-screen bg-[#B9BAA3] ">
