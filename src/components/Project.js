@@ -81,6 +81,18 @@ function Project() {
               <img src={comingSoon} class="rounded-xl h-64 object-cover border border-black" alt="coming soon text in front of team hand-stack" />
             </div>
           </div>
+          {/* Card 4 */}
+          <div class="bg-[#330E0C] rounded-xl">
+            <div class="flex flex-col p-8 rounded-xl bg-[#BCBAA6] shadow-xl translate-x-4 translate-y-4 w-96 md:w-auto">
+              <img src={comingSoon} class="rounded-xl h-64 object-cover border border-black" alt="coming soon text in front of team hand-stack" />
+            </div>
+          </div>
+          {/* Card 4 */}
+          <div class="bg-[#330E0C] rounded-xl">
+            <div class="flex flex-col p-8 rounded-xl bg-[#BCBAA6] shadow-xl translate-x-4 translate-y-4 w-96 md:w-auto">
+              <img src={comingSoon} class="rounded-xl h-64 object-cover border border-black" alt="coming soon text in front of team hand-stack" />
+            </div>
+          </div>
         </div>
       </div>
     </div>
