@@ -1,6 +1,6 @@
 function Header() {
   return (
-    <div className="h-screen flex items-start" id="home">
+    <div className="flex items-start" id="home">
       <section className="w-full bg-cover bg-center py-8 md:py-16">
         <div className="container max-w-lg mx-auto text-center text-[#0A100D]">
           <h1 className="text-5xl font-medium mb-6">Tony Trinh</h1>
@@ -15,19 +15,19 @@ function Header() {
           <nav className="flex space-x-4 justify-center">
           <a
             href="#home"
-            className="bg-[#902923] text-white py-4 px-12 rounded-full hover:bg-[#A22C29]"
+            className="bg-[#330E0C] text-white py-4 px-12 rounded-full hover:bg-[#A22C29]"
           >
             Home
           </a>
           <a
             href="#projects"
-            className="bg-[#902923] text-white py-4 px-12 rounded-full hover:bg-[#A22C29]"
+            className="bg-[#330E0C] text-white py-4 px-12 rounded-full hover:bg-[#A22C29]"
           >
             Projects
           </a>
           <a
             href="#contact"
-            className="bg-[#902923] text-white py-4 px-12 rounded-full hover:bg-[#A22C29]"
+            className="bg-[#330E0C] text-white py-4 px-12 rounded-full hover:bg-[#A22C29]"
           >
             Contact
           </a>
