@@ -15,7 +15,7 @@ This application contains my personal portfolio created with React.
 ## Usage 
 - Create a .env file and supply the your email to hide or place email directly in formspree.json
 - Run `npm start`
-- View deployed portfolio [here]
+- View deployed portfolio [here](https://tomygoi.github.io/reactPortfolio/)
 
 ## Frameworks
 React 
