@@ -2,6 +2,7 @@ import aniMatch from "../assets/aniMatch_upscaled.jpg";
 import Kickshaw from "../assets/kickshaw.jpg";
 import employeeTracker from "../assets/employees_95.jpg";
 import comingSoon from "../assets/comingSoon_35.png";
+import earthThumbnail from "../assets/earthThumbnail.png";
 function Project() {
   return (
     <div
@@ -76,9 +77,22 @@ function Project() {
             </div>
           </div>
           {/* Card 4 */}
-          <div className="bg-[#330E0C] rounded-xl md:w-{1/3}">
+          <div className="bg-[#330E0C] rounded-xl ">
             <div className="flex flex-col p-8 rounded-xl bg-[#BCBAA6] shadow-xl translate-x-4 translate-y-4 w-96 md:w-auto">
-              <img src={comingSoon} className="rounded-xl h-64 object-cover border border-black" alt="coming soon text in front of team hand-stack" />
+              <div className="mt-auto font-semibold text-xl justify-center items-center flex">
+                Globe Trotter's Guide
+              </div>
+
+              
+              <a href="https://stormy-fortress-58107.herokuapp.com/" className="block">
+              <img src={earthThumbnail} className="rounded-xl mt-3 h-64 md:h-auto md:max-h-64 object-cover border border-black w-full" alt="aniMatch logo"/>
+              </a>
+
+              <a href="https://github.com/juella205/globe-trotters">
+              <button className="bg-[#330E0C] px-4 py-3 rounded-full shadow-xl mt-4 text-white hover:bg-[#A22C29] w-full">
+                Repository
+              </button>
+              </a>
             </div>
           </div>
           {/* Card 5 */}
